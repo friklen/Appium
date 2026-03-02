@@ -26,7 +26,7 @@ public class AppiumTest {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "android");
         desiredCapabilities.setCapability("appium:deviceName", "some name");
-        desiredCapabilities.setCapability("appium:app", "C:\\Users\\nat\\Desktop\\mobail\\2.2 UI Automator\\sample\\app\\build\\outputs\\apk\\debug\\app-debug.apk");
+        desiredCapabilities.setCapability("appium:appPackage", "ru.netology.testing.uiautomator");
         desiredCapabilities.setCapability("appium:appActivity", ".MainActivity");
         desiredCapabilities.setCapability("appium:automationName", "uiautomator2");
         desiredCapabilities.setCapability("appium:ensureWebviewsHavePages", "true");
